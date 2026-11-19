@@ -1,0 +1,6 @@
+# Alle 10 Minuten Werte der C300X nach ioBroker senden (crontab -e als Benutzer pi).
+# Every 10 minutes: push the C300X values to ioBroker (crontab -e as user pi).
+# Voller Pfad zum venv-Python, weil cron keine aktivierte Umgebung hat.
+# Full path to the venv python, because cron has no activated environment.
+# Log liegt in /tmp (RAM auf dem Pi) und wird bei jedem Lauf ueberschrieben, schont die SD-Karte.
+*/10 * * * * cd /home/pi/anker-solix-api && .venv/bin/python solix_to_mqtt.py --send > /tmp/solix_cron.log 2>&1
