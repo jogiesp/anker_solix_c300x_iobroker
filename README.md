@@ -1,7 +1,7 @@
 # 🔋 Anker SOLIX C300X ↔ ioBroker
 
 
-<details>
+<details open>
 <summary><b>🇬🇧 English</b> &nbsp;(click to expand/collapse)</summary>
 
 ## What is this?
