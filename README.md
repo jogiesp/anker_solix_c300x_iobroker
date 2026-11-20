@@ -59,7 +59,7 @@ pip install .
 ### 2. Store your credentials (`.env`)
 
 ```bash
-cp /path/to/this/project/scripts/.env.example .env
+cp /path/to/this/project/scripts/.env_example .env
 nano .env          # enter e-mail, password, country
 chmod 600 .env     # only you may read it
 ```
@@ -221,7 +221,7 @@ pip install .
 ### 2. Zugangsdaten hinterlegen (`.env`)
 
 ```bash
-cp /pfad/zu/diesem/projekt/scripts/.env.example .env
+cp /pfad/zu/diesem/projekt/scripts/.env_example .env
 nano .env          # E-Mail, Passwort, Land eintragen
 chmod 600 .env     # nur du darfst sie lesen
 ```
