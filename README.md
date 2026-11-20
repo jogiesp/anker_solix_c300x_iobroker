@@ -320,6 +320,10 @@ Fertig: Ein Datenpunkt umschalten → nach ca. 2 Sekunden schaltet die Powerstat
 - Die gesamte Cloud-/MQTT-Arbeit erledigt **[anker-solix-api](https://github.com/thomluther/anker-solix-api)** von thomluther (dazu gehört auch die Home-Assistant-Integration). Ohne diese Bibliothek gäbe es dieses Projekt nicht. Bitte beachte deren Lizenz.
 - Der ioBroker-Adapter [`ioBroker.anker-solix`](https://github.com/MatthiasUlrich1/ioBroker.anker-solix) von Matthias Ulrich ist ein eigenes Projekt. Er konnte beim A1723 zum Zeitpunkt unseres Tests nur den Ladestand; wir haben dort einen Feature-Request gestellt.
 - Dieses Projekt steht in keiner Verbindung zu Anker. Keine Gewähr, keine Haftung (siehe `LICENSE`).
+## Lizenz / License
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
+**Ergänzender Hinweis zur Haftung (Deutsches Recht):**
+Die Bereitstellung der Software erfolgt unentgeltlich.
 
 Viel Spaß – und möge dein Akku immer genug Saft haben! ⚡
 
